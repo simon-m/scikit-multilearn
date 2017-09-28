@@ -11,7 +11,9 @@ that follow the problem transformation approaches to multi-label classification:
 from .br import BinaryRelevance
 from .cc import ClassifierChain
 from .lp import LabelPowerset
+from .homer import Homer
 
 __all__ = ["BinaryRelevance", 
            "ClassifierChain", 
-           "LabelPowerset"]
+           "LabelPowerset",
+           "Homer"]
